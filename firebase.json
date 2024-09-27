@@ -1,0 +1,21 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "site": "tarjim-798ad",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "www.tarjim.co",
+        "destination": "https://tarjim.co",
+        "type": 301
+      }
+    ]
+  }
+}
